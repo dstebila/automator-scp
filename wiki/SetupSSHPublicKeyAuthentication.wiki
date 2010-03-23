@@ -1,0 +1,1 @@
+#summary Describes how to set up automatic SSH public key authentication.
