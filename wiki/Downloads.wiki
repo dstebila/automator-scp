@@ -1,9 +1,3 @@
-#summary Downloads page
-
-----
-
-= Downloads =
-
 == Upload with scp ==
 
  * *[http://automator-scp.googlecode.com/files/Upload%20with%20scp%20v1.0.3.4%20Installer.zip Upload with scp v1.0.3.4 Installer.zip]* (55KB; for Mac OS X 10.4+)
