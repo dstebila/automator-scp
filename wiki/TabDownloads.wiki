@@ -1,4 +1,6 @@
-#summary Downloads page.
+#summary Downloads page
+
+----
 
 = Downloads =
 
