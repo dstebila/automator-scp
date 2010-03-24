@@ -12,3 +12,5 @@
 
  * Upload with scp v2.0 and higher: use Google code [http://code.google.com/p/automator-scp/source/ source tab]
  * Upload with scp v1.0.3.4: [http://automator-scp.googlecode.com/files/Upload%20with%20scp%20v1.0.3.4%20Source.zip ZIP file] (44KB)
+
+[http://code.google.com/p/automator-scp/downloads/list View all downloads]
