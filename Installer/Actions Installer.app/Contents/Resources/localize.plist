@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alertButtonTitle</key>
+	<string>Cancel</string>
+	<key>alertMessage</key>
+	<string>Please quit Automator before installing actions.</string>
+	<key>alertTitle</key>
+	<string>Installation Issue</string>
+	<key>completionButtonTitle</key>
+	<string>OK</string>
+	<key>completionMessage</key>
+	<string>The Automator Actions have been installed.</string>
+</dict>
+</plist>
