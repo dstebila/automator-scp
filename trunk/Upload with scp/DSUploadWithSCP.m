@@ -48,7 +48,7 @@
 	// handle errors
 	if (result == NO) {
 		*errorInfo = [DSAutomatorHelper constructAutomatorError:cmdError];
-		NSLog(@"Upload with scp v%@ (revision %@) error.\nError message: %@\nCommand: \n\t%@\n\t%@\nReturn status: %@\nOutput: %@", 
+		NSLog(@"Upload with scp v%@ (r%@) error.\nError message: %@\nCommand: \n\t%@\n\t%@\nReturn status: %@\nOutput: %@", 
 			  kDSUploadWithSCPVersion,
 			  kDSUploadWithSCPSVNRevision,
 			  cmdError,
