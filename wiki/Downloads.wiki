@@ -4,7 +4,9 @@
  * [http://automator-scp.googlecode.com/files/Upload%20with%20scp%20v1.0.3.4%20Installer.zip Upload with scp v1.0.3.4 Installer.zip] (55KB; for Mac OS X 10.4)
 
 *Source code* (available under a [http://code.google.com/p/automator-scp/downloads/list New BSD license])
- * Upload with scp v2.0 and higher: use Google code [http://code.google.com/p/automator-scp/source/ source tab]
+ * Upload with scp v2.0: [http://automator-scp.googlecode.com/files/Upload%20with%20scp%20v2.0%20source.zip ZIP file] (164KB)
  * Upload with scp v1.0.3.4: [http://automator-scp.googlecode.com/files/Upload%20with%20scp%20v1.0.3.4%20Source.zip ZIP file] (44KB)
 
-[http://code.google.com/p/automator-scp/downloads/list View all downloads]
+You can access the source code repository for Upload with scp v2.0 and higher on the [http://code.google.com/p/automator-scp/source/ source tab].
+
+*[http://code.google.com/p/automator-scp/downloads/list View all downloads]*
