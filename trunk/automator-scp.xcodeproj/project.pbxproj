@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		CDF8DB8C115B3D610041F98A /* Download with scp installer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CDF8DB90115B3D610041F98A /* Build configuration list for PBXAggregateTarget "Download with scp installer" */;
+			buildPhases = (
+				CDF8DB8F115B3D610041F98A /* ShellScript */,
+			);
+			dependencies = (
+				CDF8DB94115B3D730041F98A /* PBXTargetDependency */,
+			);
+			name = "Download with scp installer";
+			productName = "Upload with scp installer";
+		};
 		CDFDE304115A11A4009388CD /* Upload with scp installer */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = CDFDE30F115A11C6009388CD /* Build configuration list for PBXAggregateTarget "Upload with scp installer" */;
@@ -24,6 +36,20 @@
 /* Begin PBXBuildFile section */
 		650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		CD283FD9115B28A100A989FE /* New BSD License.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD5C69A81158E78C0097EFDE /* New BSD License.txt */; };
+		CD283FDB115B28A100A989FE /* DSAutomatorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5C69BB1158EACC0097EFDE /* DSAutomatorHelper.h */; };
+		CD283FDC115B28A100A989FE /* DSSCP.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD82E31158E4DD0051972B /* DSSCP.h */; };
+		CD283FDE115B28A100A989FE /* BWHyperlinkButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD82E71158E4E40051972B /* BWHyperlinkButton.h */; };
+		CD283FDF115B28A100A989FE /* BWHyperlinkButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD82E91158E4E40051972B /* BWHyperlinkButtonCell.h */; };
+		CD283FE2115B28A100A989FE /* DSAutomatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5C69BC1158EACC0097EFDE /* DSAutomatorHelper.m */; };
+		CD283FE4115B28A100A989FE /* DSSCP.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD82E41158E4DD0051972B /* DSSCP.m */; };
+		CD283FE5115B28A100A989FE /* BWHyperlinkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD82E81158E4E40051972B /* BWHyperlinkButton.m */; };
+		CD283FE6115B28A100A989FE /* BWHyperlinkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD82EA1158E4E40051972B /* BWHyperlinkButtonCell.m */; };
+		CD283FE8115B28A100A989FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		CD283FE9115B28A100A989FE /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
+		CD283FEF115B28B500A989FE /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD283FD0115B24EC00A989FE /* main.xib */; };
+		CD283FF0115B28C000A989FE /* DSDownloadWithSCP.h in Headers */ = {isa = PBXBuildFile; fileRef = CD283FCE115B24EC00A989FE /* DSDownloadWithSCP.h */; };
+		CD283FF1115B28E100A989FE /* DSDownloadWithSCP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD283FCF115B24EC00A989FE /* DSDownloadWithSCP.m */; };
 		CD5C69A91158E78C0097EFDE /* New BSD License.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD5C69A81158E78C0097EFDE /* New BSD License.txt */; };
 		CD5C69AC1158E8E80097EFDE /* BWHyperlinkButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD82E71158E4E40051972B /* BWHyperlinkButton.h */; };
 		CD5C69AD1158E8E80097EFDE /* BWHyperlinkButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD82E91158E4E40051972B /* BWHyperlinkButtonCell.h */; };
@@ -39,6 +65,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CDF8DB93115B3D730041F98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD283FD6115B28A100A989FE;
+			remoteInfo = "Download with scp";
+		};
 		CDFDE307115A11A9009388CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
@@ -54,6 +87,12 @@
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
 		8D5B49B6048680CD000E48DA /* Upload with scp.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upload with scp.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD283FCD115B24EC00A989FE /* description.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = description.rtfd; path = "Download with scp/description.rtfd"; sourceTree = "<group>"; };
+		CD283FCE115B24EC00A989FE /* DSDownloadWithSCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDownloadWithSCP.h; sourceTree = "<group>"; };
+		CD283FCF115B24EC00A989FE /* DSDownloadWithSCP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDownloadWithSCP.m; sourceTree = "<group>"; };
+		CD283FD1115B24EC00A989FE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
+		CD283FD2115B24EC00A989FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Download with scp/Info.plist"; sourceTree = "<group>"; };
+		CD283FED115B28A100A989FE /* Download with scp.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Download with scp.action"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5C69A81158E78C0097EFDE /* New BSD License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "New BSD License.txt"; sourceTree = "<group>"; };
 		CD5C69BB1158EACC0097EFDE /* DSAutomatorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAutomatorHelper.h; sourceTree = "<group>"; };
 		CD5C69BC1158EACC0097EFDE /* DSAutomatorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAutomatorHelper.m; sourceTree = "<group>"; };
@@ -78,6 +117,15 @@
 			files = (
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD283FE7115B28A100A989FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD283FE8115B28A100A989FE /* Cocoa.framework in Frameworks */,
+				CD283FE9115B28A100A989FE /* Automator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +156,7 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CD283FD3115B24F800A989FE /* Download with scp */,
 				CDAD82921158E37E0051972B /* Upload with scp */,
 			);
 			name = Resources;
@@ -120,6 +169,7 @@
 				CD5C69BC1158EACC0097EFDE /* DSAutomatorHelper.m */,
 				CDAD82E31158E4DD0051972B /* DSSCP.h */,
 				CDAD82E41158E4DD0051972B /* DSSCP.m */,
+				CD283FCC115B24EC00A989FE /* Download with scp */,
 				CDAD82AE1158E3E60051972B /* Upload with scp */,
 				CDAD82E61158E4E40051972B /* BWToolkit.BWHyperlinkButton */,
 			);
@@ -148,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				8D5B49B6048680CD000E48DA /* Upload with scp.action */,
+				CD283FED115B28A100A989FE /* Download with scp.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +210,25 @@
 				CD5C69A81158E78C0097EFDE /* New BSD License.txt */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CD283FCC115B24EC00A989FE /* Download with scp */ = {
+			isa = PBXGroup;
+			children = (
+				CD283FCE115B24EC00A989FE /* DSDownloadWithSCP.h */,
+				CD283FCF115B24EC00A989FE /* DSDownloadWithSCP.m */,
+			);
+			path = "Download with scp";
+			sourceTree = "<group>";
+		};
+		CD283FD3115B24F800A989FE /* Download with scp */ = {
+			isa = PBXGroup;
+			children = (
+				CD283FCD115B24EC00A989FE /* description.rtfd */,
+				CD283FD0115B24EC00A989FE /* main.xib */,
+				CD283FD2115B24EC00A989FE /* Info.plist */,
+			);
+			name = "Download with scp";
 			sourceTree = "<group>";
 		};
 		CDAD82921158E37E0051972B /* Upload with scp */ = {
@@ -202,6 +272,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		CD283FDA115B28A100A989FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD283FDB115B28A100A989FE /* DSAutomatorHelper.h in Headers */,
+				CD283FF0115B28C000A989FE /* DSDownloadWithSCP.h in Headers */,
+				CD283FDC115B28A100A989FE /* DSSCP.h in Headers */,
+				CD283FDE115B28A100A989FE /* BWHyperlinkButton.h in Headers */,
+				CD283FDF115B28A100A989FE /* BWHyperlinkButtonCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDAD82FA1158E5860051972B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,6 +319,26 @@
 			productReference = 8D5B49B6048680CD000E48DA /* Upload with scp.action */;
 			productType = "com.apple.product-type.bundle";
 		};
+		CD283FD6115B28A100A989FE /* Download with scp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD283FEA115B28A100A989FE /* Build configuration list for PBXNativeTarget "Download with scp" */;
+			buildPhases = (
+				CD283FD7115B28A100A989FE /* Resources */,
+				CD283FDA115B28A100A989FE /* Headers */,
+				CD283FE0115B28A100A989FE /* ShellScript */,
+				CD283FE1115B28A100A989FE /* Sources */,
+				CD283FE7115B28A100A989FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Download with scp";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Upload with scp";
+			productReference = CD283FED115B28A100A989FE /* Download with scp.action */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +354,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				CD283FD6115B28A100A989FE /* Download with scp */,
+				CDF8DB8C115B3D610041F98A /* Download with scp installer */,
 				8D5B49AC048680CD000E48DA /* Upload with scp */,
 				CDFDE304115A11A4009388CD /* Upload with scp installer */,
 			);
@@ -268,9 +372,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD283FD7115B28A100A989FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD283FEF115B28B500A989FE /* main.xib in Resources */,
+				CD283FD9115B28A100A989FE /* New BSD License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		CD283FE0115B28A100A989FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/DSDownloadWithSCP_version.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REV=`svnversion -n`\necho \"#define kDSDownloadWithSCPSVNRevision @\\\"$REV\\\"\" > \"${DERIVED_FILE_DIR}/DSDownloadWithSCP_version.h\"\nVER=`agvtool mvers -terse | grep \"${PRODUCT_NAME}\" | sed \"s/.*=//\"`\necho \"#define kDSDownloadWithSCPVersion @\\\"$VER\\\"\" >> \"${DERIVED_FILE_DIR}/DSDownloadWithSCP_version.h\"";
+		};
 		CD8DD11A1159DD9300384492 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +411,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "REV=`svnversion -n`\necho \"#define kDSUploadWithSCPSVNRevision @\\\"$REV\\\"\" > \"${DERIVED_FILE_DIR}/DSUploadWithSCP_version.h\"\nVER=`agvtool mvers -terse | grep \"${PRODUCT_NAME}\" | sed \"s/.*=//\"`\necho \"#define kDSUploadWithSCPVersion @\\\"$VER\\\"\" >> \"${DERIVED_FILE_DIR}/DSUploadWithSCP_version.h\"";
+		};
+		CDF8DB8F115B3D610041F98A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILD_PRODUCTS_DIR)/Download with scp.action",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PROD=\"Download with scp\"\nVER=`agvtool mvers -terse | grep \"${PROD}\" | sed \"s/.*=//\"`\nINST=\"${PROD} v${VER} installer\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${INST}.app\"\nrm -f \"${BUILT_PRODUCTS_DIR}/${INST}.zip\"\nditto \"Installer/Actions Installer.app\" \"${BUILT_PRODUCTS_DIR}/${INST}.app\"\ntouch \"${BUILT_PRODUCTS_DIR}/${INST}.app\"\nditto \"${BUILT_PRODUCTS_DIR}/${PROD}.action\" \"${BUILT_PRODUCTS_DIR}/${INST}.app/Contents/Resources/Actions/${PROD}.action\"\nditto \"${PROD}/description.rtfd\" \"${BUILT_PRODUCTS_DIR}/${INST}.app/Contents/Resources/description.rtfd\"\nditto -c -k --keepParent --noqtn --noacl \"${BUILT_PRODUCTS_DIR}/${INST}.app\" \"${BUILT_PRODUCTS_DIR}/${INST}.zip\"\n";
 		};
 		CDFDE311115A11E6009388CD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -314,9 +455,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD283FE1115B28A100A989FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD283FE2115B28A100A989FE /* DSAutomatorHelper.m in Sources */,
+				CD283FF1115B28E100A989FE /* DSDownloadWithSCP.m in Sources */,
+				CD283FE4115B28A100A989FE /* DSSCP.m in Sources */,
+				CD283FE5115B28A100A989FE /* BWHyperlinkButton.m in Sources */,
+				CD283FE6115B28A100A989FE /* BWHyperlinkButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CDF8DB94115B3D730041F98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD283FD6115B28A100A989FE /* Download with scp */;
+			targetProxy = CDF8DB93115B3D730041F98A /* PBXContainerItemProxy */;
+		};
 		CDFDE308115A11A9009388CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8D5B49AC048680CD000E48DA /* Upload with scp */;
@@ -325,6 +483,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CD283FD0115B24EC00A989FE /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD283FD1115B24EC00A989FE /* English */,
+			);
+			name = main.xib;
+			path = "Download with scp";
+			sourceTree = "<group>";
+		};
 		CDAD82951158E37E0051972B /* main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -406,6 +573,68 @@
 			};
 			name = Release;
 		};
+		CD283FEB115B28A100A989FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)\\\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Download with scp/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Download with scp";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		CD283FEC115B28A100A989FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)\\\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Download with scp/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Download with scp";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		CDF8DB91115B3D610041F98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Upload with scp installer";
+			};
+			name = Debug;
+		};
+		CDF8DB92115B3D610041F98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Upload with scp installer";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		CDFDE305115A11A4009388CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,6 +673,24 @@
 			buildConfigurations = (
 				4E59C34408A97622001206A8 /* Debug */,
 				4E59C34508A97622001206A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD283FEA115B28A100A989FE /* Build configuration list for PBXNativeTarget "Download with scp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD283FEB115B28A100A989FE /* Debug */,
+				CD283FEC115B28A100A989FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF8DB90115B3D610041F98A /* Build configuration list for PBXAggregateTarget "Download with scp installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF8DB91115B3D610041F98A /* Debug */,
+				CDF8DB92115B3D610041F98A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
