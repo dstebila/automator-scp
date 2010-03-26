@@ -12,6 +12,15 @@
 {
 }
 
++ (BOOL)downloadFrom:(NSString *)server
+			username:(NSString *)username
+			 options:(NSArray *)options
+		 sourcePaths:(NSArray *)sourcePaths
+	 destinationPath:(NSString *)destinationPath 
+		   scpBinary:(NSString *)scpBinary
+		errorMessage:(NSString **)errorMessage
+				 log:(NSDictionary **)log;
+
 + (BOOL)uploadTo:(NSString *)server
 		username:(NSString *)username
 		 options:(NSArray *)options
