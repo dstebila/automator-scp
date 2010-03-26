@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Network</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryInternet</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>scpDestinationPath</key>
+		<string></string>
+		<key>scpOtherOptions</key>
+		<string></string>
+		<key>scpPreserveExtended</key>
+		<true/>
+		<key>scpPreserveTimes</key>
+		<true/>
+		<key>scpServer</key>
+		<string></string>
+		<key>scpUserName</key>
+		<string></string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string>This action may overwrite files on the remote server.</string>
+		<key>AMDInput</key>
+		<string></string>
+		<key>AMDNote</key>
+		<string></string>
+		<key>AMDOptions</key>
+		<string></string>
+		<key>AMDRelatedActions</key>
+		<string></string>
+		<key>AMDRequires</key>
+		<string>SSH public key authentication</string>
+		<key>AMDResult</key>
+		<string>The files or folders that were successfully uploaded.</string>
+		<key>AMDSummary</key>
+		<string>This action copies files or folders to the specified server using scp.</string>
+		<key>AMDWebsite</key>
+		<string>http://code.google.com/p/automator-scp/</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Globe</string>
+	<key>AMKeywords</key>
+	<array/>
+	<key>AMName</key>
+	<string>Upload with scp</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string></string>
+		<key>ApplyButton</key>
+		<string></string>
+		<key>IgnoreButton</key>
+		<string></string>
+		<key>Level</key>
+		<integer>0</integer>
+		<key>Message</key>
+		<string></string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Upload with scp v2.0</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>ca.crazycode.automator.scp.UploadWithSCP</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Upload with scp</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2005-2010 Douglas Stebila. Source code released under the New BSD license.</string>
+	<key>NSPrincipalClass</key>
+	<string>DSUploadWithSCP</string>
+</dict>
+</plist>
