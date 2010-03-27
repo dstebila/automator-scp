@@ -1,5 +1,5 @@
 #summary Describes how to set up automatic SSH public key authentication.
-#labels Product-UploadWithSCP,Featured
+#labels Product-UploadWithSCP,Featured,Product-DownloadWithSCP
 
 = Setup SSH Public Key Authentication =
 
