@@ -20,7 +20,7 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="545624606">
 			<object class="NSCustomObject" id="513649446">
-				<string key="NSClassName">AMBundleAction</string>
+				<string key="NSClassName">DSUploadWithSCP</string>
 			</object>
 			<object class="NSCustomObject" id="93344913">
 				<string key="NSClassName">FirstResponder</string>
@@ -162,7 +162,7 @@
 							<int key="NSCellFlags2">205652992</int>
 							<string key="NSContents"/>
 							<reference key="NSSupport" ref="26"/>
-							<string key="NSPlaceholderString">host or IP address</string>
+							<string key="NSPlaceholderString">domain name or IP address</string>
 							<reference key="NSControlView" ref="1027985172"/>
 							<bool key="NSDrawsBackground">YES</bool>
 							<object class="NSColor" key="NSBackgroundColor" id="270471694">
@@ -406,9 +406,6 @@
 			<object class="NSCustomObject" id="967684443">
 				<string key="NSClassName">NSApplication</string>
 			</object>
-			<object class="NSCustomObject" id="219242755">
-				<string key="NSClassName">DSUploadWithSCP</string>
-			</object>
 			<object class="NSObjectController" id="377427500">
 				<array class="NSMutableArray" key="NSDeclaredKeys">
 					<string>scpServer</string>
@@ -452,66 +449,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: selection.scpServer</string>
-						<reference key="source" ref="1027985172"/>
-						<reference key="destination" ref="377427500"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="1027985172"/>
-							<reference key="NSDestination" ref="377427500"/>
-							<string key="NSLabel">value: selection.scpServer</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">selection.scpServer</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSContinuouslyUpdatesValue</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100045</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: selection.scpUserName</string>
-						<reference key="source" ref="457593717"/>
-						<reference key="destination" ref="377427500"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="457593717"/>
-							<reference key="NSDestination" ref="377427500"/>
-							<string key="NSLabel">value: selection.scpUserName</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">selection.scpUserName</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSContinuouslyUpdatesValue</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100048</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: selection.scpDestinationPath</string>
-						<reference key="source" ref="146004894"/>
-						<reference key="destination" ref="377427500"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="146004894"/>
-							<reference key="NSDestination" ref="377427500"/>
-							<string key="NSLabel">value: selection.scpDestinationPath</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">selection.scpDestinationPath</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSConditionallySetsEnabled</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100052</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: selection.scpPreserveTimes</string>
 						<reference key="source" ref="527412115"/>
 						<reference key="destination" ref="377427500"/>
@@ -543,26 +480,6 @@
 					<int key="connectionID">100057</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: selection.scpOtherOptions</string>
-						<reference key="source" ref="764080146"/>
-						<reference key="destination" ref="377427500"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="764080146"/>
-							<reference key="NSDestination" ref="377427500"/>
-							<string key="NSLabel">value: selection.scpOtherOptions</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">selection.scpOtherOptions</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSContinuouslyUpdatesValue</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100062</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">nextKeyView</string>
 						<reference key="source" ref="1027985172"/>
@@ -588,43 +505,131 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">checkForNewVersionButton</string>
-						<reference key="source" ref="219242755"/>
-						<reference key="destination" ref="1065122261"/>
+						<string key="label">_view</string>
+						<reference key="source" ref="513649446"/>
+						<reference key="destination" ref="595191707"/>
 					</object>
-					<int key="connectionID">100134</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">downloadNewVersionButton</string>
-						<reference key="source" ref="219242755"/>
-						<reference key="destination" ref="508075655"/>
-					</object>
-					<int key="connectionID">100138</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">noNewVersionLabel</string>
-						<reference key="source" ref="219242755"/>
-						<reference key="destination" ref="979682167"/>
-					</object>
-					<int key="connectionID">100141</int>
+					<int key="connectionID">100148</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">failCheckNewVersionLabel</string>
-						<reference key="source" ref="219242755"/>
+						<reference key="source" ref="513649446"/>
 						<reference key="destination" ref="69198311"/>
 					</object>
-					<int key="connectionID">100146</int>
+					<int key="connectionID">100149</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">noNewVersionLabel</string>
+						<reference key="source" ref="513649446"/>
+						<reference key="destination" ref="979682167"/>
+					</object>
+					<int key="connectionID">100150</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">checkForNewVersionSelector:</string>
-						<reference key="source" ref="219242755"/>
+						<reference key="source" ref="513649446"/>
 						<reference key="destination" ref="1065122261"/>
 					</object>
-					<int key="connectionID">100147</int>
+					<int key="connectionID">100151</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">checkForNewVersionButton</string>
+						<reference key="source" ref="513649446"/>
+						<reference key="destination" ref="1065122261"/>
+					</object>
+					<int key="connectionID">100152</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">downloadNewVersionButton</string>
+						<reference key="source" ref="513649446"/>
+						<reference key="destination" ref="508075655"/>
+					</object>
+					<int key="connectionID">100153</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: selection.scpServer</string>
+						<reference key="source" ref="1027985172"/>
+						<reference key="destination" ref="377427500"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1027985172"/>
+							<reference key="NSDestination" ref="377427500"/>
+							<string key="NSLabel">value: selection.scpServer</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">selection.scpServer</string>
+							<dictionary key="NSOptions">
+								<boolean value="YES" key="NSContinuouslyUpdatesValue"/>
+								<string key="NSNullPlaceholder">domain name or IP address</string>
+							</dictionary>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100154</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: selection.scpUserName</string>
+						<reference key="source" ref="457593717"/>
+						<reference key="destination" ref="377427500"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="457593717"/>
+							<reference key="NSDestination" ref="377427500"/>
+							<string key="NSLabel">value: selection.scpUserName</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">selection.scpUserName</string>
+							<dictionary key="NSOptions">
+								<boolean value="YES" key="NSContinuouslyUpdatesValue"/>
+								<string key="NSNullPlaceholder">user name</string>
+							</dictionary>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100155</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: selection.scpDestinationPath</string>
+						<reference key="source" ref="146004894"/>
+						<reference key="destination" ref="377427500"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="146004894"/>
+							<reference key="NSDestination" ref="377427500"/>
+							<string key="NSLabel">value: selection.scpDestinationPath</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">selection.scpDestinationPath</string>
+							<dictionary key="NSOptions">
+								<boolean value="YES" key="NSConditionallySetsEnabled"/>
+								<string key="NSNullPlaceholder">path</string>
+							</dictionary>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100156</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: selection.scpOtherOptions</string>
+						<reference key="source" ref="764080146"/>
+						<reference key="destination" ref="377427500"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="764080146"/>
+							<reference key="NSDestination" ref="377427500"/>
+							<string key="NSLabel">value: selection.scpOtherOptions</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">selection.scpOtherOptions</string>
+							<dictionary key="NSOptions">
+								<boolean value="YES" key="NSContinuouslyUpdatesValue"/>
+								<string key="NSNullPlaceholder">other command-line options</string>
+							</dictionary>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100157</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -847,11 +852,6 @@
 						<reference key="parent" ref="1065122261"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">100127</int>
-						<reference key="object" ref="219242755"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">100135</int>
 						<reference key="object" ref="508075655"/>
 						<array class="NSMutableArray" key="children">
@@ -995,17 +995,10 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">100147</int>
+			<int key="maxID">100157</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">AMBundleAction</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">AMBundleAction_DSError.h</string>
-					</object>
-				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">AMBundleAction</string>
 					<string key="superclassName">AMAction</string>
